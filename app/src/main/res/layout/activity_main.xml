@@ -13,69 +13,43 @@
         android:id="@+id/header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Header!"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Header!" />
 
     <TextView
         android:id="@+id/basic_input_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Basic text entry"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@id/header" />
+        android:text="Basic text entry" />
 
     <EditText
         android:id="@+id/basic_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@id/basic_input_header" />
+        android:inputType="text" />
 
     <TextView
         android:id="@+id/pin_input_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pin entry"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@id/basic_input" />
+        android:text="Pin entry" />
 
     <EditText
         android:id="@+id/pin_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="numberPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@id/pin_input_header" />
+        android:inputType="numberPassword" />
+
     <TextView
         android:id="@+id/email_input_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Email input"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@id/pin_input" />
+        android:text="Email input" />
 
     <EditText
         android:id="@+id/email_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@id/email_input_header" />
+        android:inputType="textEmailAddress" />
 
 
 </LinearLayout>
