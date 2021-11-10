@@ -51,5 +51,17 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress" />
 
+    <TextView
+        android:id="@+id/paragraph_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paragraph input" />
+
+    <EditText
+        android:id="@+id/paragraph_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine" />
+
 
 </LinearLayout>
